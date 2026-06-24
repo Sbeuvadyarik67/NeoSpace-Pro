@@ -20,77 +20,44 @@
 
 1. Убедись, что у тебя установлен Python 3.7+
 2. Установи библиотеку:
-```bash
-pip install tkinterdnd2
-🚀 Запуск
-bash
-python virtual_minimal.py
-Или открой проект в VS Code и нажми F5.
-
-📂 Структура
-virtual_minimal.py — основной файл программы
-
-C:\NeoSpace_Pro — виртуальная папка (создаётся автоматически)
-
-⚠️ Важно
-Все файлы хранятся изолированно в C:\NeoSpace_Pro
-
-Реальная система НЕ затрагивается
-
-Программа НЕ требует прав администратора
-
-🔧 Технологии
-Python 3.7+
-
-Tkinter + tkinterdnd2
-
-📄 Лицензия
-MIT
-
-text
-
-4. Внизу страницы напиши сообщение коммита: `📝 Добавлен README`
-5. Нажми **«Commit new file»**.
+   ```bash
+   pip install tkinterdnd2
+   ```
 
 ---
 
-## 🚀 2. Настраиваем автоматизацию (GitHub Actions)
+## 🚀 Запуск
 
-Сейчас при каждом изменении кода тебе придётся вручную заливать файлы. Чтобы этого избежать, можно настроить **автоматическую сборку и проверку** проекта через GitHub Actions. Это полезно, если ты планируешь развивать проект или принимать пулл-реквесты.
+```bash
+python virtual_minimal.py
+```
 
-### Что это даёт:
-- При каждом `push` в репозиторий будет запускаться проверка кода.
-- Если код сломается — ты сразу узнаешь.
+Или открой проект в VS Code и нажми `F5`.
 
-### Как добавить простой workflow:
+---
 
-1. На странице репозитория перейди во вкладку **Actions**.
-2. Нажми **«New workflow»** → **«Set up a workflow yourself»**.
-3. Назови файл `python-app.yml`.
-4. Вставь этот код:
+## 📂 Структура
 
-```yaml
-name: Python проверка
+- `virtual_minimal.py` — основной файл программы
+- `C:\NeoSpace_Pro` — виртуальная папка (создаётся автоматически)
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+---
 
-jobs:
-  build:
-    runs-on: windows-latest
+## ⚠️ Важно
 
-    steps:
-    - uses: actions/checkout@v4
-    - name: Установить Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-    - name: Установить зависимости
-      run: |
-        pip install tkinterdnd2
-    - name: Проверить синтаксис
-      run: |
-        python -m py_compile virtual_minimal.py
+- Все файлы хранятся изолированно в `C:\NeoSpace_Pro`
+- Реальная система **НЕ затрагивается**
+- Программа **НЕ требует** прав администратора
+
+---
+
+## 🔧 Технологии
+
+- Python 3.7+
+- Tkinter + tkinterdnd2
+
+---
+
+## 📄 Лицензия
+
+MIT
