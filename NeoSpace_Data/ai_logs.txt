@@ -1,8 +1,0 @@
-  1  10:56:01  Создана папка: c:\Users\Вадим\Desktop\Общее\Вадим разработка\_РАБОЧАЯ ВЕРСИЯ_\github\NeoSpace\NeoSpace_Data\пустая_папка
-  2  11:01:15  Создана папка: ТЕСТ
-  1  11:37:03  Открыта папка: c:\Users\Вадим\Desktop\Общее\Вадим разработка\_РАБОЧАЯ ВЕРСИЯ_\github\NeoSpace\NeoSpace_Data\Экспорт
-  2  11:37:46  Открыта папка: c:\Users\Вадим\Desktop\Общее\Вадим разработка\_РАБОЧАЯ ВЕРСИЯ_\github\NeoSpace\NeoSpace_Data\Backups
-  3  11:42:52  Создана папка: c:\Users\Вадим\Desktop\Общее\Вадим разработка_РАБОЧАЯ ВЕРСИЯ_\github\NeoSpace\NeoSpace_Data
-  4  11:42:52  Открыта папка: c:\Users\Вадим\Desktop\Общее\Вадим разработка_РАБОЧАЯ ВЕРСИЯ_\github\NeoSpace\NeoSpace_Data
-  5  11:43:21  Создана папка: c:\Users\Вадим\Desktop\Общее\Вадим разработка\_РАБОЧАЯ ВЕРСИЯ_\github\NeoSpace\NeoSpace_Data\ПУСТО
-  6  11:43:42  Открыта папка: c:\\Users\\Вадим\\Desktop\\Общее\\Вадим разработка\\_РАБОЧАЯ ВЕРСИЯ_\\github\\NeoSpace\\NeoSpace_Data
